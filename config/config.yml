@@ -1,0 +1,3 @@
+crawler:
+  seed_url:
+    - "https://www.constitutionofindia.net/read/"
