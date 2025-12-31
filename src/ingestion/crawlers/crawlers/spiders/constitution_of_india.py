@@ -47,6 +47,7 @@ class ConstitutionOfIndiaSpiderSpider(scrapy.Spider):
 
 
 
+
         
 
 
