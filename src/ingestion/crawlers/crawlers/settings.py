@@ -1,4 +1,4 @@
-# Scrapy settings for constitution_of_india project
+# Scrapy settings for crawlers project
 #
 # For simplicity, this file contains only settings considered important or
 # commonly used. You can find more settings consulting the documentation:
@@ -7,14 +7,14 @@
 #     https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
 #     https://docs.scrapy.org/en/latest/topics/spider-middleware.html
 
-BOT_NAME = "constitution_of_india"
+BOT_NAME = "crawlers"
 
-SPIDER_MODULES = ["constitution_of_india.spiders"]
-NEWSPIDER_MODULE = "constitution_of_india.spiders"
+SPIDER_MODULES = ["crawlers.spiders"]
+NEWSPIDER_MODULE = "crawlers.spiders"
 
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
-#USER_AGENT = "constitution_of_india (+http://www.yourdomain.com)"
+#USER_AGENT = "crawlers (+http://www.yourdomain.com)"
 
 # Obey robots.txt rules
 ROBOTSTXT_OBEY = True
@@ -45,13 +45,13 @@ ROBOTSTXT_OBEY = True
 # Enable or disable spider middlewares
 # See https://docs.scrapy.org/en/latest/topics/spider-middleware.html
 #SPIDER_MIDDLEWARES = {
-#    "constitution_of_india.middlewares.ConstitutionOfIndiaSpiderMiddleware": 543,
+#    "crawlers.middlewares.CrawlersSpiderMiddleware": 543,
 #}
 
 # Enable or disable downloader middlewares
 # See https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
 #DOWNLOADER_MIDDLEWARES = {
-#    "constitution_of_india.middlewares.ConstitutionOfIndiaDownloaderMiddleware": 543,
+#    "crawlers.middlewares.CrawlersDownloaderMiddleware": 543,
 #}
 
 # Enable or disable extensions
@@ -63,7 +63,7 @@ ROBOTSTXT_OBEY = True
 # Configure item pipelines
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
 #ITEM_PIPELINES = {
-#    "constitution_of_india.pipelines.ConstitutionOfIndiaPipeline": 300,
+#    "crawlers.pipelines.CrawlersPipeline": 300,
 #}
 
 # Enable and configure the AutoThrottle extension (disabled by default)

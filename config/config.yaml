@@ -1,7 +1,0 @@
-ingestion:
-  web_sources:
-    - name: "Constitution_of_India_web_crawl"
-      seed_url: "https://www.constitutionofindia.net/read"
-      allowed_domains:
-        - "www.constitutionofindia.net"
-        - "constitutionofindia.net"

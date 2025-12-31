@@ -1,0 +1,6 @@
+web_sources:
+  - name: "constitution_of_india_crawler"
+    seed_url: "https://www.constitutionofindia.net/read"
+    allowed_domains:
+      - "www.constitutionofindia.net"
+      - "constitutionofindia.net"
