@@ -66,6 +66,14 @@ class ConstitutionOfIndiaSpiderSpider(scrapy.Spider):
 
     def parse_part(self, response: Response):
         item = Part()
+        item['part_number'] = 
+        item['title'] = scrapy.Field()
+        item['url'] = scrapy.Field()
+        item['main_text'] = scrapy.Field()
+        item['chapters'] = scrapy.Field()
+        item['historical_context'] = scrapy.Field()
+        item['last_modified_at'] = scrapy.Field()
+        item['scraped_at'] = scrapy.Field()
         
 
 
