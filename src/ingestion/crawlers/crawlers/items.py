@@ -15,8 +15,6 @@ class Part(scrapy.Item):
     url = scrapy.Field()
     main_text = scrapy.Field()
     chapters = scrapy.Field()
-    historical_context = scrapy.Field()
-    last_modified_at = scrapy.Field()
     scraped_at = scrapy.Field()
 
 class Article(scrapy.Item):
